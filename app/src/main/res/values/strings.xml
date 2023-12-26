@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="my_food">My Food</string>
+    <string name="save_your_favorite_food">Save Your Favorite Food</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+
+    <style name="ToolbarTheme" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textColorPrimary">@color/white</item> <!-- Màu chữ trắng -->
+        <item name="navigationIcon">@drawable/ic_arrow_back_24</item> <!-- Biểu tượng back trắng -->
+    </style>
+    <style name="CustomToolbarTitleStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/lobster</item>
+    </style>
+</resources>

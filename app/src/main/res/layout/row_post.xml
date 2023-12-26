@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@color/white"
+    android:padding="5dp">
+
+    <ImageButton
+        android:id="@+id/moreBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_next"
+        app:tint="@color/black" />
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:adjustViewBounds="true"
+        android:background="#939292"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_image" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:maxLines="4"
+        android:layout_toStartOf="@+id/moreBtn"
+        android:layout_toEndOf="@+id/image"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:fontFamily="@font/lobster" />
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:maxLines="3"
+        android:layout_toStartOf="@+id/moreBtn"
+        android:layout_below="@+id/title"
+        android:layout_toEndOf="@+id/image"
+        android:text="Vanilla Shake Mix; whole milk; sugar; high fructose corn syrup; nonfat milk; grade A sweet whey; cream; natural artificial vanilla flavor; mono and diglycerides; cellulose gum; guar gum; carrageenan; dipotassium phosphate; sodium citrate; sodium chloride; sodium carbonate; annatto; caramel color; Mint Chocolate Shake Syrup; high fructose corn syrup; water; corn syrup; natural and artificial flavors; citric acid; potassium sorbate and sodium benzoate; preservatives; polysorbate 80; vanilla extract; Yellow 5; Blue 1; Andes Mints; sugar; partially hydrogenated vegetable oils; palm kernel; palm; cocoa; processed with alkali; nonfat milk; lactose; milk protein concentrate; soy lecithin; emulsifier; natural and artificial flavors; peppermint oil; Yellow 5; Blue 1; Ghirardelli Chocolate Drizzle; sugar; water; fructose; cocoa; natural flavor; unsweetened chocolate; potassium sorbate; preservative; salt; soy lecithin; emulsifier; Whipped Topping; grade A cream; sucrose; corn syrup; nonfat milk solids; monoglycerides; natural and artificial flavors; salt; nitrous oxide gas; Contains sulphites; CONTAINS; SOY; MILK"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>
